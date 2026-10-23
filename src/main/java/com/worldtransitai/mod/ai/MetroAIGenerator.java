@@ -96,8 +96,8 @@ public class MetroAIGenerator {
 
         // Если выбран любой другой город мира — делаем живой запрос в OpenStreetMap Overpass API
         try {
-            String query = String.format(
-                "[out:json][timeout:15];area["name:en"="%s"]->.searchArea;(node["railway"="station"]["station"="subway"](area.searchArea););out body 12;",
+          String query = String.format(
+                "[out:json][timeout:15];area[\"name:en\"=\"%s\"]->.searchArea;(node[\"railway\"=\"station\"][\"station\"=\"subway\"](area.searchArea););out body 12;",
                 city
             );
             String encoded = "data=" + URLEncoder.encode(query, StandardCharsets.UTF_8);
