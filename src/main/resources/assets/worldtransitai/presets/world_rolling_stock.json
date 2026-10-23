@@ -1,0 +1,42 @@
+{
+  "presets": {
+    "russia_spb_metro": {
+      "country": "Россия",
+      "city": "Санкт-Петербург",
+      "rolling_stock": [
+        "81-717/714 (Номерной)",
+        "81-722/723/724 (Юбилейный)",
+        "81-725/726/727 (Балтиец)"
+      ],
+      "railways": [
+        "ЭВС1/ЭВС2 Сапсан",
+        "ЭС2Г Ласточка",
+        "ЭП2ДМ"
+      ]
+    },
+    "japan_tokyo_rail": {
+      "country": "Япония",
+      "city": "Токио",
+      "rolling_stock": [
+        "Shinkansen N700S",
+        "Shinkansen E5 Hayabusa",
+        "JR East E235 Yamanote Line",
+        "Tokyo Metro 1000 Series"
+      ]
+    },
+    "france_paris_rail": {
+      "country": "Франция",
+      "city": "Париж",
+      "rolling_stock": [
+        "TGV Duplex / TGV M",
+        "RATP MP 14 (Автоматическое метро)",
+        "RER MI 09"
+      ]
+    },
+    "multimodal_global": {
+      "funiculars": ["Горный фуникулёр (Сочи / Швейцария / Владивосток)"],
+      "aviation": ["МС-21 / Airbus A320neo / Boeing 777"],
+      "maritime": ["Метеор 120Р (Судно на подводных крыльях)", "Морской круизный паром"]
+    }
+  }
+}

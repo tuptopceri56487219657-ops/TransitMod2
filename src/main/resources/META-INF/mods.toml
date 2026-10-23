@@ -1,0 +1,12 @@
+modLoader="javafml"
+loaderVersion="[52,)"
+license="MIT"
+
+[[mods]]
+modId="worldtransitai"
+version="1.0.0-alpha"
+displayName="World Transit AI (MTR + Create + Microblocks + AI)"
+authors="Gemini & Creator"
+description='''
+Глобальный транспортный мод с поддержкой ИИ-генерации реального метро (Санкт-Петербург, Токио, Париж и др.) через OpenStreetMap и нейросеть, высокодетализированными поездами, самолётами, кораблями, фуникулёрами и встроенной системой воксельных микроблоков с LOD-оптимизацией для слабых ПК.
+'''
